@@ -1,0 +1,8 @@
+<div [ngClass]="setClasses()">
+    <p>
+        <label for="title">Title: {{note.title}} </label>
+        <br/>
+        <textarea name="txtarea" cols="100" rows="5">{{ note.text }}</textarea>
+        <button (click)="onDelete(note)" class="del">x</button>
+    </p>
+</div>

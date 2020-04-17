@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+}
+
+.form input[name='title'] {
+    flex: 5;
+    padding: 10px;
+}
+
+.form input[name='text'] {
+    flex: 15;
+    padding: 10px;
+}
+
+.form input[type='submit'] {
+    flex: 2;
+}
